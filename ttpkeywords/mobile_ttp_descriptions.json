@@ -1,0 +1,358 @@
+{
+    "T1435": [
+        "Access Calendar Entries",
+        "An adversary could call standard operating system APIs from a malicious application to gather calendar entry data, or with escalated privileges could directly access files containing calendar data.."
+    ],
+    "T1433": [
+        "Access Call Log",
+        "On Android, an adversary could call standard operating system APIs from a malicious application to gather call log data, or with escalated privileges could directly access files containing call log data."
+    ],
+    "T1432": [
+        "Access Contact List",
+        "An adversary could call standard operating system APIs from a malicious application to gather contact list  data, or with escalated privileges could directly access files containing contact list data.."
+    ],
+    "T1517": [
+        "Access Notifications",
+        "A malicious application can read notifications sent by the operating system or other applications, which may contain sensitive data such as one-time authentication codes sent over SMS, email, or other mediums."
+    ],
+    "T1413": [
+        "Access Sensitive Data in Device Logs",
+        "On versions of Android prior to 4.1, an adversary may use a malicious application that holds the READ_LOGS permission to obtain private keys, passwords, other credentials, or other sensitive data stored in the device's system log."
+    ],
+    "T1409": [
+        "Access Stored Application Data",
+        "Adversaries may access and collect application data resident on the device."
+    ],
+    "T1438": [
+        "Alternate Network Mediums",
+        "Adversaries can communicate using cellular networks rather than enterprise Wi-Fi in order to bypass enterprise network monitoring systems."
+    ],
+    "T1418": [
+        "Application Discovery",
+        "Adversaries may seek to identify all applications installed on the device."
+    ],
+    "T1427": [
+        "Attack PC via USB Connection",
+        "With escalated privileges, an adversary could program the mobile device to impersonate USB devices such as input devices , storage devices, and/or networking devices in order to attack a physically connected PC This technique has been demonstrated on Android."
+    ],
+    "T1402": [
+        "Broadcast Receivers",
+        "An intent is a message passed between Android application or system components."
+    ],
+    "T1429": [
+        "Capture Audio",
+        "Adversaries may capture audio to collect information on a user of a mobile device using standard operating system APIs."
+    ],
+    "T1512": [
+        "Capture Camera",
+        "Adversaries may utilize the camera to capture information about the user, their surroundings, or other physical identifiers."
+    ],
+    "T1414": [
+        "Capture Clipboard Data",
+        "Adversaries may abuse Clipboard Manager APIs to obtain sensitive information copied to the global clipboard."
+    ],
+    "T1412": [
+        "Capture SMS Messages",
+        "A malicious application could capture sensitive data sent via SMS, including authentication credentials."
+    ],
+    "T1448": [
+        "Carrier Billing Fraud",
+        "A malicious app may trigger fraudulent charges on a victim's carrier billing statement in several different ways, including SMS toll fraud and SMS shortcodes that make purchases."
+    ],
+    "T1510": [
+        "Clipboard Modification",
+        "Adversaries may abuse clipboard functionality to intercept and replace information in the Android device clipboard. Malicious applications may monitor the clipboard activity through the <code>ClipboardManager.OnPrimaryClipChangedListener</code> interface on Android to determine when the clipboard contents have changed. Listening to clipboard activity, reading the clipboard contents, and modifying the clipboard contents requires no explicit application permissions and can be performed by applications running in the background, however, this behavior has changed with the release of Android 10.Adversaries may use [Clipboard Modification] to replace text prior to being pasted, for example, replacing a copied Bitcoin wallet address with a wallet address that is under adversarial control."
+    ],
+    "T1540": [
+        "Code Injection",
+        "Adversaries may use code injection attacks to implant arbitrary code into the address space of a running application."
+    ],
+    "T1605": [
+        "Command-Line Interface",
+        "Adversaries may use built-in command-line interfaces to interact with the device and execute commands."
+    ],
+    "T1436": [
+        "Commonly Used Port",
+        "Adversaries may communicate over a commonly used port to bypass firewalls or network detection systems and to blend with normal network activity to avoid more detailed inspection."
+    ],
+    "T1577": [
+        "Compromise Application Executable",
+        "Adversaries may modify applications installed on a device to establish persistent access to a victim."
+    ],
+    "T1532": [
+        "Data Encrypted",
+        "Data is encrypted before being exfiltrated in order to hide the information that is being exfiltrated from detection or to make the exfiltration less conspicuous upon inspection by a defender."
+    ],
+    "T1471": [
+        "Data Encrypted for Impact",
+        "An adversary may encrypt files stored on the mobile device to prevent the user from accessing them, for example with the intent of only unlocking access to the files after a ransom is paid."
+    ],
+    "T1533": [
+        "Data from Local System",
+        "Sensitive data can be collected from local system sources, such as the file system or databases of information residing on the system."
+    ],
+    "T1447": [
+        "Delete Device Data",
+        "Adversaries may wipe a device or delete individual files in order to manipulate external outcomes or hide activity."
+    ],
+    "T1475": [
+        "Deliver Malicious App via Authorized App Store",
+        "Malicious applications are a common attack vector used by adversaries to gain a presence on mobile devices."
+    ],
+    "T1476": [
+        "Deliver Malicious App via Other Means",
+        "Malicious applications are a common attack vector used by adversaries to gain a presence on mobile devices."
+    ],
+    "T1401": [
+        "Device Administrator Permissions",
+        "Adversaries may request device administrator permissions to perform malicious actions."
+    ],
+    "T1446": [
+        "Device Lockout",
+        "An adversary may seek to lock the legitimate user out of the device, for example to inhibit user interaction or to obtain a ransom payment."
+    ],
+    "T1408": [
+        "Disguise Root/Jailbreak Indicators",
+        "An adversary could use knowledge of the techniques used by security software to evade detection."
+    ],
+    "T1520": [
+        "Domain Generation Algorithms",
+        "Adversaries may use [Domain Generation Algorithms]  to procedurally generate domain names for command and control communication, and other uses such as malicious application distribution.DGAs increase the difficulty for defenders to block, track, or take over the command and control channel, as there potentially could be thousands of domains that malware can check for instructions.."
+    ],
+    "T1466": [
+        "Downgrade to Insecure Protocols",
+        "An adversary could cause the mobile device to use less secure protocols, for example by jamming frequencies used by newer protocols such as LTE and only allowing older protocols such as GSM to communicate."
+    ],
+    "T1407": [
+        "Download New Code at Runtime",
+        "An app could download and execute dynamic code  after installation to evade static analysis techniques  used for application vetting or application store review.On Android, dynamic code could include native code, Dalvik code, or JavaScript code that uses the Android WebView's JavascriptInterface capability.On iOS, techniques also exist for executing dynamic code downloaded after application installation.."
+    ],
+    "T1456": [
+        "Drive-by Compromise",
+        "As described by [Drive-by Compromise], a drive-by compromise is when an adversary gains access to a system through a user visiting a website over the normal course of browsing."
+    ],
+    "T1439": [
+        "Eavesdrop on Insecure Network Communication",
+        "If network traffic between the mobile device and remote servers is unencrypted or is encrypted in an insecure manner, then an adversary positioned on the network can eavesdrop on communication.."
+    ],
+    "T1523": [
+        "Evade Analysis Environment",
+        "Malicious applications may attempt to detect their operating environment prior to fully executing their payloads."
+    ],
+    "T1428": [
+        "Exploit Enterprise Resources",
+        "Adversaries may attempt to exploit enterprise servers, workstations, or other resources over the network."
+    ],
+    "T1404": [
+        "Exploit OS Vulnerability",
+        "A malicious app can exploit unpatched vulnerabilities in the operating system to obtain escalated privileges.."
+    ],
+    "T1449": [
+        "Exploit SS7 to Redirect Phone Calls/SMS",
+        "An adversary could exploit signaling system vulnerabilities to redirect calls or text messages  to a phone number under the attacker's control."
+    ],
+    "T1450": [
+        "Exploit SS7 to Track Device Location",
+        "An adversary could exploit signaling system vulnerabilities to track the location of mobile devices."
+    ],
+    "T1405": [
+        "Exploit TEE Vulnerability",
+        "A malicious app or other attack vector could be used to exploit vulnerabilities in code running within the Trusted Execution Environment  ."
+    ],
+    "T1458": [
+        "Exploit via Charging Station or PC",
+        "If the mobile device is connected  to a charging station or a PC, for example to charge the device's battery, then a compromised or malicious charging station or PC could attempt to exploit the mobile device via the connection."
+    ],
+    "T1477": [
+        "Exploit via Radio Interfaces",
+        "The mobile device may be targeted for exploitation through its interface to cellular networks or other radio interfaces."
+    ],
+    "T1420": [
+        "File and Directory Discovery",
+        "On Android, command line tools or the Java file APIs can be used to enumerate file system contents."
+    ],
+    "T1541": [
+        "Foreground Persistence",
+        "Adversaries may abuse Android's `startForeground` API method to maintain continuous sensor access."
+    ],
+    "T1472": [
+        "Generate Fraudulent Advertising Revenue",
+        "An adversary could seek to generate fraudulent advertising revenue from mobile devices, for example by triggering automatic clicks of advertising links without user involvement.."
+    ],
+    "T1581": [
+        "Geofencing",
+        "Adversaries may use a device's geographical location to limit certain malicious behaviors."
+    ],
+    "T1417": [
+        "Input Capture",
+        "Adversaries may capture user input to obtain credentials or other information from the user through various methods."
+    ],
+    "T1516": [
+        "Input Injection",
+        "A malicious application can inject input to the user interface to mimic user interaction through the abuse of Android's accessibility APIs."
+    ],
+    "T1411": [
+        "Input Prompt",
+        "The operating system and installed applications often have legitimate needs to prompt the user for sensitive information such as account credentials, bank account information, or Personally Identifiable Information ."
+    ],
+    "T1478": [
+        "Install Insecure or Malicious Configuration",
+        "An adversary could attempt to install insecure or malicious configuration settings on the mobile device, through means such as phishing emails or text messages either directly containing the configuration settings as an attachment, or containing a web link to the configuration settings."
+    ],
+    "T1464": [
+        "Jamming or Denial of Service",
+        "An attacker could jam radio signals (e.g."
+    ],
+    "T1579": [
+        "Keychain",
+        "Adversaries may collect the keychain storage data from an iOS device to acquire credentials."
+    ],
+    "T1430": [
+        "Location Tracking",
+        "An adversary could use a malicious or exploited application to surreptitiously track the device's physical location through use of standard operating system APIs.."
+    ],
+    "T1461": [
+        "Lockscreen Bypass",
+        "An adversary with physical access to a mobile device may seek to bypass the device's lockscreen."
+    ],
+    "T1452": [
+        "Manipulate App Store Rankings or Ratings",
+        "An adversary could use access to a compromised device's credentials to attempt to manipulate app store rankings or ratings by triggering application downloads or posting fake reviews of applications."
+    ],
+    "T1463": [
+        "Manipulate Device Communication",
+        "If network traffic between the mobile device and a remote server is not securely protected, then an attacker positioned on the network may be able to manipulate network communication without being detected."
+    ],
+    "T1444": [
+        "Masquerade as Legitimate Application",
+        "An adversary could distribute developed malware by masquerading the malware as a legitimate application."
+    ],
+    "T1403": [
+        "Modify Cached Executable Code",
+        "ART  compiles optimized code on the device itself to improve performance."
+    ],
+    "T1398": [
+        "Modify OS Kernel or Boot Partition",
+        "If an adversary can escalate privileges, he or she may be able to use those privileges to place malicious code in the device kernel or other boot partition components, where the code may evade detection, may persist after device resets, and may not be removable by the device user."
+    ],
+    "T1400": [
+        "Modify System Partition",
+        "If an adversary can escalate privileges, he or she may be able to use those privileges to place malicious code in the device system partition, where it may persist after device resets and may not be easily removed by the device user."
+    ],
+    "T1399": [
+        "Modify Trusted Execution Environment",
+        "If an adversary can escalate privileges, he or she may be able to use those privileges to place malicious code in the device's Trusted Execution Environment  or other similar isolated execution environment where the code can evade detection, may persist after device resets, and may not be removable by the device user."
+    ],
+    "T1575": [
+        "Native Code",
+        "Adversaries may use Android's Native Development Kit  to write native functions that can achieve execution of binaries or functions."
+    ],
+    "T1507": [
+        "Network Information Discovery",
+        "Adversaries may use device sensors to collect information about nearby networks, such as Wi-Fi and Bluetooth.."
+    ],
+    "T1423": [
+        "Network Service Scanning",
+        "Adversaries may attempt to get a listing of services running on remote hosts, including those that may be vulnerable to remote software exploitation."
+    ],
+    "T1410": [
+        "Network Traffic Capture or Redirection",
+        "An adversary may capture network traffic to and from the device to obtain credentials or other sensitive data, or redirect network traffic to flow through an adversary-controlled gateway to do the same."
+    ],
+    "T1406": [
+        "Obfuscated Files or Information",
+        "An app could contain malicious code in obfuscated or encrypted form, then deobfuscate or decrypt the code at runtime to evade many app vetting techniques.   ."
+    ],
+    "T1470": [
+        "Obtain Device Cloud Backups",
+        "An adversary who is able to obtain unauthorized access to or misuse authorized access to cloud backup services (e.g."
+    ],
+    "T1424": [
+        "Process Discovery",
+        "On Android versions prior to 5, applications can observe information about other processes that are running through methods in the ActivityManager class."
+    ],
+    "T1604": [
+        "Proxy Through Victim",
+        "Adversaries may use a compromised device as a proxy server to the Internet."
+    ],
+    "T1544": [
+        "Remote File Copy",
+        "Files may be copied from one system to another to stage adversary tools or other files over the course of an operation."
+    ],
+    "T1468": [
+        "Remotely Track Device Without Authorization",
+        "An adversary who is able to obtain unauthorized access to or misuse authorized access to cloud services (e.g."
+    ],
+    "T1469": [
+        "Remotely Wipe Data Without Authorization",
+        "An adversary who is able to obtain unauthorized access to or misuse authorized access to cloud services (e.g."
+    ],
+    "T1467": [
+        "Rogue Cellular Base Station",
+        "An adversary could set up a rogue cellular base station and then use it to eavesdrop on or manipulate cellular device communication."
+    ],
+    "T1465": [
+        "Rogue Wi-Fi Access Points",
+        "An adversary could set up unauthorized Wi-Fi access points or compromise existing access points and, if the device connects to them, carry out network-based attacks such as eavesdropping on or modifying network communication.."
+    ],
+    "T1451": [
+        "SIM Card Swap",
+        "An adversary could convince the mobile network operator (e.g."
+    ],
+    "T1582": [
+        "SMS Control",
+        "Adversaries may delete, alter, or send SMS messages without user authorization."
+    ],
+    "T1603": [
+        "Scheduled Task/Job",
+        "Adversaries may abuse task scheduling functionality to facilitate initial or recurring execution of malicious code."
+    ],
+    "T1513": [
+        "Screen Capture",
+        "Adversaries may use screen captures to collect information about applications running in the foreground, capture user data, credentials, or other sensitive information."
+    ],
+    "T1437": [
+        "Standard Application Layer Protocol",
+        "Adversaries may communicate using a common, standardized application layer protocol such as HTTP, HTTPS, SMTP, or DNS to avoid detection by blending in with existing traffic."
+    ],
+    "T1521": [
+        "Standard Cryptographic Protocol",
+        "Adversaries may explicitly employ a known encryption algorithm to conceal command and control traffic rather than relying on any inherent protections provided by a communication protocol."
+    ],
+    "T1474": [
+        "Supply Chain Compromise",
+        "As further described in [Supply Chain Compromise], supply chain compromise is the manipulation of products or product delivery mechanisms prior to receipt by a final consumer for the purpose of data or system compromise."
+    ],
+    "T1508": [
+        "Suppress Application Icon",
+        "A malicious application could suppress its icon from being displayed to the user in the application launcher to hide the fact that it is installed, and to make it more difficult for the user to uninstall the application."
+    ],
+    "T1426": [
+        "System Information Discovery",
+        "An adversary may attempt to get detailed information about the operating system and hardware, including version, patches, and architecture."
+    ],
+    "T1422": [
+        "System Network Configuration Discovery",
+        "On Android, details of onboard network interfaces are accessible to apps through the `java.net.NetworkInterface` class. The Android `TelephonyManager` class can be used to gather related information such as the IMSI, IMEI, and phone number.On iOS, gathering network configuration information is not possible without root access.."
+    ],
+    "T1421": [
+        "System Network Connections Discovery",
+        "On Android, applications can use standard APIs to gather a list of network connections to and from the device."
+    ],
+    "T1416": [
+        "URI Hijacking",
+        "Adversaries may register Uniform Resource Identifiers  to intercept sensitive data."
+    ],
+    "T1509": [
+        "Uncommonly Used Port",
+        "Adversaries may use non-standard ports to exfiltrate information.."
+    ],
+    "T1576": [
+        "Uninstall Malicious Application",
+        "Adversaries may include functionality in malware that uninstalls the malicious application from the device."
+    ],
+    "T1481": [
+        "Web Service",
+        "Adversaries may use an existing, legitimate external Web service as a means for relaying commands to a compromised system."
+    ]
+}

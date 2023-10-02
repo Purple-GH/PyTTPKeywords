@@ -1,0 +1,96 @@
+{
+    "authorized": [
+        "google play",
+        "play store",
+        "app store"
+    ],
+    "other means": [
+        "phish",
+        "malicious link",
+        "third-party app store",
+        "sms link",
+        "email link"
+    ],
+    "alternate network": [
+        "cellular network",
+        "sms for command and control",
+        "sms for c2",
+        "sms for c&c",
+        "sms c2",
+        "sms c&c",
+        "email for command and control",
+        "email for c2",
+        "email for c&c",
+        "email c2",
+        "email c&c",
+        "phone calls for command and control",
+        "phone calls for c2",
+        "phone calls for c&c",
+        "call c2",
+        "call c&c",
+        "cellular network",
+        "bypass enterprise network",
+        "bypass monitoring system"
+    ],
+    "drive-by": [
+        "cellular network",
+        "sms for command and control",
+        "sms for c2",
+        "sms for c&c",
+        "sms c2",
+        "sms c&c",
+        "email for command and control",
+        "email for c2",
+        "email for c&c",
+        "email c2",
+        "email c&c",
+        "phone calls for command and control",
+        "phone calls for c2",
+        "phone calls for c&c",
+        "call c2",
+        "call c&c",
+        "cellular network",
+        "bypass enterprise network",
+        "bypass monitoring system"
+    ],
+    "malicious configuration": [
+        "install insecure configuration",
+        "install malicious configuration"
+    ],
+    "": [
+        "lock screen bypass",
+        "bypass the lock screen",
+        "bypass the lockscreen"
+    ],
+    "masquerad": [
+        "pretend",
+        " pose ",
+        "masquerade",
+        "facade",
+        "disguise",
+        "impersonate"
+    ],
+    "command-line": [
+        "android debug bridge",
+        " adb ",
+        "runtime shell"
+    ],
+    "native code": [
+        "native development kit",
+        " ndk ",
+        "java native interface",
+        " jni "
+    ],
+    "scheduled": [
+        "scheduled task",
+        "scheduled job",
+        "task scheduling",
+        "job scheduling",
+        "scheduler task",
+        "workmanager",
+        "jobscheduler",
+        "gcmnetworkmanager",
+        "alarmmanager",
+        "nsbackgroundactivityscheduler"
+    ]
+}
